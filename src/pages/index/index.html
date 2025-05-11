@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <link type="image/x-icon" rel="shortcut icon" href="/public/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Описание сайта">
+
+    <title>Страница О нас</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+
+                <a href="#" class="header__logo">Logo</a>
+
+                <div class="header__menu" data-burger="menu">
+
+                    <nav class="header__nav">
+                        <ul class="header__list"> 
+
+                            <!-- item-1 -->
+                            <li class="header__list-item header__list-item_active">
+                                <a href="/index/index.html">Главная</a>
+                            </li>
+
+                            <!-- item-2 -->
+                            <li class="header__list-item">
+                                <a href="/about/index.html">О нас</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                    
+                </div>
+
+                <button class="header__burger" data-burger="btn" aria-label="Открыть меню">
+                    <span></span>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Site Body/Content -->
+    <main>
+
+        <section class="first">
+            <div class="container">
+                <p style="padding: 430px 0;">Страница "Главная"</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__privacy-policy"><a href="#">Политика конфиденциальности</a></p>
+            <p class="footer__сopyright">© 2022 — 2025 "Владелец"</p>
+            <p class="footer__creator">Реализовал сайт <a href="https://kwork.ru/user/traniks">Traniks</a></p>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/pages/index/index.js"></script>
+</body>
+</html>
